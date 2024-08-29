@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.expense-container {
+  width: 60vw;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.income-expense-wrapper {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 5px 16px #c4bbbb;
+}
+/* .transaction-list-wrapper {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.transaction-icon {
+  position: absolute;
+  left: 81%;
+  top: 17%;
+}
+
+.transaction-list-wrapper {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 14vw;
+  height: 16vh;
+  position: relative;
+}
+
+.add-input {
+  width: 50vw;
+  height: 10vh;
+  border-radius: 10px;
+}
+.add-input::placeholder {
+  color: black;
+}
+.transaction-content {
+  position: absolute;
+  left: 21%;
+  top: -10%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .expense-container {
+    width: 94vw;
+  }
+  .transaction-list-wrapper {
+    width: 51vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+}
