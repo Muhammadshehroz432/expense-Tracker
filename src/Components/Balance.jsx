@@ -31,7 +31,7 @@ const Balance = () => {
 
   return (
     <div className="mt-4">
-      <h1 className="display-4 fw-bold">Balance</h1>
+      <h1 className="display-4 fw-bold"> Your Balance</h1>
 
       <p className={`fs-1 fw-bold ${balanceClass}`}>{Totalbalance}</p>
     </div>

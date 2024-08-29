@@ -31,7 +31,7 @@
 .transaction-list-wrapper {
   border: 2px solid black;
   border-radius: 10px;
-  width: 14vw;
+  width: 22vw;
   height: 16vh;
   position: relative;
 }
@@ -46,8 +46,13 @@
 }
 .transaction-content {
   position: absolute;
-  left: 21%;
-  top: -10%;
+  left: 28%;
+  top: -33%;
+}
+.card-body {
+  border: 2px solid black;
+  width: 20rem;
+  border-radius: 10px;
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
@@ -56,6 +61,13 @@
   }
   .transaction-list-wrapper {
     width: 51vw;
+  }
+  .transaction-content {
+    top: -10%;
+    left: 22%;
+  }
+  .card-body {
+    width: 14rem;
   }
 }
 
